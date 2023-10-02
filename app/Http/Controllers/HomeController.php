@@ -58,6 +58,11 @@ class HomeController extends Controller
         return view('ranking');
     }
 
+    public function daftar()
+    {
+        return view('daftar');
+    }
+
 
     public function prodi()
     {

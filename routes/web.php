@@ -29,5 +29,6 @@ Route::get('/matriks', [App\Http\Controllers\HomeController::class, 'matriks'])-
 Route::get('/prefensi', [App\Http\Controllers\HomeController::class, 'prefensi'])->name('prefensi');
 Route::get('/ranking', [App\Http\Controllers\HomeController::class, 'ranking'])->name('ranking');
 Route::get('/TambahProdi', [App\Http\Controllers\HomeController::class, 'prodi'])->name('TambahProdi');
+Route::get('/daftar', [App\Http\Controllers\HomeController::class, 'daftar'])->name('daftar');
 
 Route::post('/TmbPrd', [App\Http\Controllers\systemcontroller::class, 'store'])->name('prosestambah');
